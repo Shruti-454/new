@@ -1,0 +1,97 @@
+body {
+    background-color: #f0f4f1;
+}
+
+h2 {
+    background: linear-gradient(#004219 5%, #12d7bd 100%);
+    padding: 10px;
+    margin: -10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+hr {
+    margin: 10px -50px;
+    border: 0;
+    border-top: 40px solid #e91212;
+    margin-bottom: 40px;
+}
+
+div.container {
+    width: 900px;
+    height: 610px;
+    margin: 35px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.main {
+    width: 300px;
+    padding: 50px 100px 50px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 170px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    color: #000000;
+    text-shadow: 0 1px 0 #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+center {
+    font-size: 32px;
+}
+
+.note {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
+
+.back {
+    text-decoration: none;
+    border: 1px solid rgb(68, 134, 184);
+    background-color: rgb(0, 214, 255);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: rgb(220, 11, 11);
+}
+
+input[type=button] {
+    font-size: 16px;
+    background: linear-gradient(#004219 5%, #12d7bd 100%);
+    border: 1px solid #63e3aa;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline: none;
+}
+
+input[type=button]:hover {
+    background: linear-gradient(#4fe6be 5%, #ffffff 100%);
+}
